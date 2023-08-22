@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# whoami command under user passed as argument
+if [ $# -gt 0 ]
+then
+    sudo -u "$1" whoami
+fi
